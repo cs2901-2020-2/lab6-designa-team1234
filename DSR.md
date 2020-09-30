@@ -1,5 +1,4 @@
 # lab6-designa-team1234
-Programa de simulación de una estación meteorológica.
 
 ###Requerimientos Funcionales:
 - El cliente solicita y recibe información sobre temperatura, humedad y estación.
@@ -13,8 +12,7 @@ Estación
 
 ###Diagrama de casos de uso
 
-
-
+![message](/cliente.png)
 
 
 
