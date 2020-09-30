@@ -1,11 +1,11 @@
 import java.util.Observable;
 import java.util.Observer;
 
-public class cliente implements Observer{
-    private int id;
+public class Cliente implements Observer{
+    private int clientId;
     private double []datos = new double[3];
-    public cliente(int id) {
-        this.id = id;
+    public Cliente(int id) {
+        clientId = id;
     }
 
     public void update(Observable estacion, Object values) {
@@ -14,5 +14,8 @@ public class cliente implements Observer{
 
     public double[] getData() {
         return datos;
+    }
+    public int getClientId () {
+        return clientId;
     }
 }
