@@ -1,12 +1,11 @@
 import java.util.Observable;
-import java.util.Observer;
 
 public class cliente {
     private String type;
     private Double totalCalculated = new Double(0D);
     private final Double rateCoefficient;
 
-    public BankExpense(String type, Double rateCoefficient) {
+    public void BankExpense(String type, Double rateCoefficient) {
         this.type = type;
         this.rateCoefficient = rateCoefficient;
     }
