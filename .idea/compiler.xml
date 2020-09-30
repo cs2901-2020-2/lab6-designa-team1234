@@ -9,5 +9,8 @@
         <module name="lab6-designa-team1234" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab6-designa-team1234" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

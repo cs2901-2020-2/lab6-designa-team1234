@@ -2,7 +2,7 @@
 Programa de simulación de una estación meteorológica.
 
 ### Requerimientos Funcionales:
-- El cliente solicita y recibe información sobre temperatura, humedad y estación.
+- El cliente solicita y recibe información sobre temperatura, humedad y velocidad del viento.
 
 ### Requerimientos No Funcionales:
 - El programa puede ir añadiendo nuevos clientes sin límite definido.  
