@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class test {
+public class TestEstacion {
     @Test
     public void test_get_data_single() {
         EstacionMeteorologica estacion_principal = new EstacionMeteorologica();
