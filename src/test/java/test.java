@@ -10,7 +10,7 @@ public class test {
         estacion estacion_principal = new estacion();
         cliente nuevoCliente = new cliente();
         estacion_principal.addData(32.0,43.33,56.0);
-        nuevoCliente.update(estacion_principal, estacion_principal.getData());
+        estacion_principal.addObserver(nuevoCliente);
 
         Assert.assertEquals(nuevoCliente.getData() = estacion_principal.getData());
     }
@@ -25,11 +25,11 @@ public class test {
         cliente nuevoCliente4 = new cliente();
 
         estacion_principal.addData(32.0,43.33,56.0);
-        nuevoCliente0.update(estacion_principal, estacion_principal.getData());
-        nuevoCliente1.update(estacion_principal, estacion_principal.getData());
-        nuevoCliente2.update(estacion_principal, estacion_principal.getData());
-        nuevoCliente3.update(estacion_principal, estacion_principal.getData());
-        nuevoCliente4.update(estacion_principal, estacion_principal.getData());
+        estacion_principal.addObserver(nuevoCliente0);
+        estacion_principal.addObserver(nuevoCliente1);
+        estacion_principal.addObserver(nuevoCliente2);
+        estacion_principal.addObserver(nuevoCliente3);
+        estacion_principal.addObserver(nuevoCliente4);
 
         Assert.assertEquals(nuevoCliente0.getData() = estacion_principal.getData());
         Assert.assertEquals(nuevoCliente1.getData() = estacion_principal.getData());
@@ -42,15 +42,13 @@ public class test {
     public void test_data_changes_single() {
         estacion estacion_principal = new estacion();
         cliente nuevoCliente0 = new cliente();
+        estacion_principal.addObserver(nuevoCliente0);
 
         estacion_principal.addData(32.0,43.33,56.0);
-        nuevoCliente0.update(estacion_principal, estacion_principal.getData());
         Assert.assertEquals(nuevoCliente0.getData() = estacion_principal.getData());
         estacion_principal.addData(27.0,80.34,23.4);
-        nuevoCliente0.update(estacion_principal, estacion_principal.getData());
         Assert.assertEquals(nuevoCliente0.getData() = estacion_principal.getData());
         estacion_principal.addData(23.2,55.33,16.0);
-        nuevoCliente0.update(estacion_principal, estacion_principal.getData());
         Assert.assertEquals(nuevoCliente0.getData() = estacion_principal.getData());
     }
 
