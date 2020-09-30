@@ -1,7 +1,7 @@
 import java.util.Observable;
 
 public class estacion extends Observable {
-    private double[] datos;
+    private final double[] datos = new double[3];
 
     public void addData(double temp, double humidity, double windspeed) {
         setChanged();
