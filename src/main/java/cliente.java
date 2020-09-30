@@ -1,35 +1,18 @@
 import java.util.Observable;
 import java.util.Observer;
 
-public class cliente {
-    private String type;
-    private Double totalCalculated = new Double(0D);
-    private final Double rateCoefficient;
-
-    public BankExpense(String type, Double rateCoefficient) {
-        this.type = type;
-        this.rateCoefficient = rateCoefficient;
+public class cliente implements Observer{
+    private int id;
+    private double []datos = new double[3];
+    public cliente(int id) {
+        this.id = id;
     }
 
-    @Override
-    public void update(Observable o, Object value) {
-        this.totalCalculated = ((Double) value) * rateCoefficient;
+    public void update(Observable estacion, Object values) {
+        this.datos = (double []) values;
     }
 
-    public Double getTotalCalculated() {
-        return totalCalculated;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    @Override
-    public String toString() {
-        return "BankExpense{" +
-                "type='" + type + '\'' +
-                ", rateCoefficient=" + rateCoefficient +
-                ", totalCalculated=" + totalCalculated +
-                '}';
+    public double[] getData() {
+        return datos;
     }
 }
