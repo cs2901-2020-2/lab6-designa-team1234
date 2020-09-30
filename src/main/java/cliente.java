@@ -5,11 +5,6 @@ public class cliente {
     private Double totalCalculated = new Double(0D);
     private final Double rateCoefficient;
 
-    public void BankExpense(String type, Double rateCoefficient) {
-        this.type = type;
-        this.rateCoefficient = rateCoefficient;
-    }
-
     @Override
     public void update(Observable o, Object value) {
         this.totalCalculated = ((Double) value) * rateCoefficient;
