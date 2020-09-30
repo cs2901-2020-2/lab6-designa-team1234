@@ -1,9 +1,7 @@
+package lab;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 
 public class TestEstacion {

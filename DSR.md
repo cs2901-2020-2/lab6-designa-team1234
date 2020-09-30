@@ -8,7 +8,7 @@ Programa de simulación de una estación meteorológica.
 - El programa puede ir añadiendo nuevos clientes sin límite definido.  
 
 ### Casos de uso:
-Cliente
+lab.Cliente
 Estación
 
 ### Diagrama de casos de uso

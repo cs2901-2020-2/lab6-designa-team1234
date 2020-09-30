@@ -1,3 +1,5 @@
+package lab;
+
 import java.util.Observable;
 
 public class EstacionMeteorologica extends Observable {
