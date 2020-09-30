@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lab6-designa-team1234" target="1.5" />
+      <module name="lab6-designa-team1234" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

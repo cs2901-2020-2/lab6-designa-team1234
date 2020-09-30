@@ -1,4 +1,4 @@
-ê
+÷
 java.lang.ObjectJ
 equals(Ljava/lang/Object;),java.lang.Object#equals(Ljava/lang/Object;)Z*
 
@@ -11,12 +11,17 @@ toString()-java.lang.Object#toString()Ljava/lang/String;$
 wait(JI)java.lang.Object#wait(JI)V:
 
 getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
-clone()*java.lang.Object#clone()Ljava/lang/Object;8
-registerNatives()#java.lang.Object#registerNatives()V,
+clone()*java.lang.Object#clone()Ljava/lang/Object;,
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I–
+hashCode()java.lang.Object#hashCode()I&
+java.util.Observerjava.lang.Objectä
+Clientejava.util.Observerjava.lang.Objectm
+0update(Ljava/util/Observable;Ljava/lang/Object;)9Cliente#update(Ljava/util/Observable;Ljava/lang/Object;)V 
+	getData()Cliente#getData()[D
+	<init>(I)Cliente#<init>(I)V'
+getClientId()Cliente#getClientId()I–
 java.util.Observablejava.lang.Object*
 <init>()java.util.Observable#<init>()V6
 clearChanged()$java.util.Observable#clearChanged()V\
@@ -27,13 +32,8 @@ $deleteObserver(Ljava/util/Observer;):java.util.Observable#deleteObserver(Ljava
 setChanged()"java.util.Observable#setChanged()V<
 notifyObservers()'java.util.Observable#notifyObservers()V`
 #notifyObservers(Ljava/lang/Object;)9java.util.Observable#notifyObservers(Ljava/lang/Object;)V:
-countObservers()&java.util.Observable#countObservers()Iã
-estacionjava.util.Observable&
-addData(DDD)estacion#addData(DDD)V
-<init>()estacion#<init>()V!
-	getData()estacion#getData()[D&
-java.util.Observerjava.lang.Object·
-clientejava.util.Observerjava.lang.Objectm
-0update(Ljava/util/Observable;Ljava/lang/Object;)9cliente#update(Ljava/util/Observable;Ljava/lang/Object;)V 
-	getData()cliente#getData()[D
-	<init>(I)cliente#<init>(I)V
+countObservers()&java.util.Observable#countObservers()Iø
+EstacionMeteorologicajava.util.Observable3
+addData(DDD)#EstacionMeteorologica#addData(DDD)V+
+<init>()EstacionMeteorologica#<init>()V.
+	getData()!EstacionMeteorologica#getData()[D
