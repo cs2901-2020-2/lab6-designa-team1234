@@ -1,4 +1,5 @@
 import java.util.Observable;
+import java.util.Observer;
 
 public class cliente implements Observer{
     private int id;
