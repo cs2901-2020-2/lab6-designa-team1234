@@ -15,4 +15,4 @@ public class cliente implements Observer{
     public double[] getData() {
         return datos;
     }
-}
+} 
