@@ -13,7 +13,7 @@ Estación
 
 ###Diagrama de casos de uso
 
-![Diagrama](/cliente.png)
+
 
 
 
