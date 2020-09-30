@@ -1,15 +1,15 @@
 import java.util.Observable;
 
 public class estacion extends Observable {
-    private double temp;
+    private Double[] datos;
 
-    public void addData(Double amount) {
-        this.temp += amount;
+    public void addData(Double temp, Double humidity, Double windspeed) {
         setChanged();
-        notifyObservers(temp);
+        Double[] datos = {temp, humidity, windspeed};
+        notifyObservers(datos);
     }
 
-    public Double getData() {
-        return temp;
+    public Double[] getData() {
+        return datos;
     }
 }
