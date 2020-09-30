@@ -1,2 +1,10 @@
 # lab6-designa-team1234
-lab6-designa-team1234 created by GitHub Classroom
+####Requerimientos Funcionales:
+
+####Requerimientos No Funcionales:
+
+####Casos de uso:
+
+
+####Diagrama de casos de uso
+
