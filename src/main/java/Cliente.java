@@ -15,7 +15,9 @@ public class Cliente implements Observer{
     public double[] getData() {
         return datos;
     }
+
     public int getClientId () {
         return clientId;
     }
 }
+
