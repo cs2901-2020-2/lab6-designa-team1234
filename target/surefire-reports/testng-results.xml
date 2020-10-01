@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-30T19:06:39 COT" name="lab.EstacionMeteorologicaTest" finished-at="2020-09-30T19:06:39 COT" duration-ms="24">
+  <suite started-at="2020-09-30T19:10:44 COT" name="lab.EstacionMeteorologicaTest" finished-at="2020-09-30T19:10:44 COT" duration-ms="30">
     <groups>
     </groups>
-    <test started-at="2020-09-30T19:06:39 COT" name="Command line test" finished-at="2020-09-30T19:06:39 COT" duration-ms="24">
+    <test started-at="2020-09-30T19:10:44 COT" name="Command line test" finished-at="2020-09-30T19:10:44 COT" duration-ms="30">
       <class name="lab.EstacionMeteorologicaTest">
-        <test-method signature="UpdateClientTest()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="UpdateClientTest" finished-at="2020-09-30T19:06:39 COT" duration-ms="6" status="PASS">
+        <test-method signature="UpdateClientTest()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="UpdateClientTest" finished-at="2020-09-30T19:10:44 COT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateClientTest -->
-        <test-method signature="test_data_changes_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="test_data_changes_multiple" finished-at="2020-09-30T19:06:39 COT" duration-ms="0" status="PASS">
+        <test-method signature="test_data_changes_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="test_data_changes_multiple" finished-at="2020-09-30T19:10:44 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_data_changes_multiple -->
-        <test-method signature="test_data_changes_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="test_data_changes_single" finished-at="2020-09-30T19:06:39 COT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_data_changes_single -->
-        <test-method signature="test_data_create_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="test_data_create_multiple" finished-at="2020-09-30T19:06:39 COT" duration-ms="0" status="PASS">
+        <test-method signature="test_data_create_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="test_data_create_multiple" finished-at="2020-09-30T19:10:44 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_data_create_multiple -->
-        <test-method signature="test_get_data_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="test_get_data_multiple" finished-at="2020-09-30T19:06:39 COT" duration-ms="0" status="PASS">
+        <test-method signature="test_get_data_multiple()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="test_get_data_multiple" finished-at="2020-09-30T19:10:44 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_get_data_multiple -->
-        <test-method signature="test_get_data_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="test_get_data_single" finished-at="2020-09-30T19:06:39 COT" duration-ms="0" status="PASS">
+        <test-method signature="test_data_changes_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="test_data_changes_single" finished-at="2020-09-30T19:10:44 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_data_changes_single -->
+        <test-method signature="test_get_data_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="test_get_data_single" finished-at="2020-09-30T19:10:44 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_get_data_single -->
-        <test-method signature="tetst_data_create_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:06:39 COT" name="tetst_data_create_single" finished-at="2020-09-30T19:06:39 COT" duration-ms="0" status="PASS">
+        <test-method signature="tetst_data_create_single()[pri:0, instance:lab.EstacionMeteorologicaTest@1786dec2]" started-at="2020-09-30T19:10:44 COT" name="tetst_data_create_single" finished-at="2020-09-30T19:10:44 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tetst_data_create_single -->

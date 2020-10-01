@@ -3,5 +3,5 @@ projectKey=cs2901-2020-2_lab6-designa-team1234
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.12818
 dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2020-2_lab6-designa-team1234
-ceTaskId=AXThe-poELHVZ0tMom-k
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXThe-poELHVZ0tMom-k
+ceTaskId=AXThf6cemFvbZ11JP9wH
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXThf6cemFvbZ11JP9wH
