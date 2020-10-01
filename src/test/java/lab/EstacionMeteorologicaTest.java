@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class TestEstacion {
+public class EstacionMeteorologicaTest {
     @Test
     public void test_get_data_single() {
         EstacionMeteorologica estacion_principal = new EstacionMeteorologica();

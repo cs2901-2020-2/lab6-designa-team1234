@@ -16,12 +16,12 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 wait()java.lang.Object#wait()V*
 
 hashCode()java.lang.Object#hashCode()I&
-java.util.Observerjava.lang.Objectä
-Clientejava.util.Observerjava.lang.Objectm
-0update(Ljava/util/Observable;Ljava/lang/Object;)9Cliente#update(Ljava/util/Observable;Ljava/lang/Object;)V 
-	getData()Cliente#getData()[D
-	<init>(I)Cliente#<init>(I)V'
-getClientId()Cliente#getClientId()I–
+java.util.Observerjava.lang.Objectû
+lab.Clientejava.util.Observerjava.lang.Objectq
+0update(Ljava/util/Observable;Ljava/lang/Object;)=lab.Cliente#update(Ljava/util/Observable;Ljava/lang/Object;)V$
+	getData()lab.Cliente#getData()[D#
+	<init>(I)lab.Cliente#<init>(I)V+
+getClientId()lab.Cliente#getClientId()I–
 java.util.Observablejava.lang.Object*
 <init>()java.util.Observable#<init>()V6
 clearChanged()$java.util.Observable#clearChanged()V\
@@ -32,8 +32,8 @@ $deleteObserver(Ljava/util/Observer;):java.util.Observable#deleteObserver(Ljava
 setChanged()"java.util.Observable#setChanged()V<
 notifyObservers()'java.util.Observable#notifyObservers()V`
 #notifyObservers(Ljava/lang/Object;)9java.util.Observable#notifyObservers(Ljava/lang/Object;)V:
-countObservers()&java.util.Observable#countObservers()Iø
-EstacionMeteorologicajava.util.Observable3
-addData(DDD)#EstacionMeteorologica#addData(DDD)V+
-<init>()EstacionMeteorologica#<init>()V.
-	getData()!EstacionMeteorologica#getData()[D
+countObservers()&java.util.Observable#countObservers()Iœ
+lab.EstacionMeteorologicajava.util.Observable7
+addData(DDD)'lab.EstacionMeteorologica#addData(DDD)V/
+<init>()#lab.EstacionMeteorologica#<init>()V2
+	getData()%lab.EstacionMeteorologica#getData()[D

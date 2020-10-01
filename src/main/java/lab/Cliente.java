@@ -4,8 +4,11 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class Cliente implements Observer{
+
     private int clientId;
+
     private double []datos = new double[3];
+
     public Cliente(int id) {
         clientId = id;
     }
