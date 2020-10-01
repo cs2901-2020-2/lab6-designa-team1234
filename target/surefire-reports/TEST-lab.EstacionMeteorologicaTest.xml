@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="lab.EstacionMeteorologicaTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="lab.EstacionMeteorologicaTest" time="0.008" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -60,7 +60,7 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="lab.EstacionMeteorologicaTest" name="UpdateClientTest" time="0.006"/>
+  <testcase classname="lab.EstacionMeteorologicaTest" name="UpdateClientTest" time="0.007"/>
   <testcase classname="lab.EstacionMeteorologicaTest" name="test_data_changes_multiple" time="0"/>
   <testcase classname="lab.EstacionMeteorologicaTest" name="test_data_changes_single" time="0"/>
   <testcase classname="lab.EstacionMeteorologicaTest" name="test_data_create_multiple" time="0"/>
